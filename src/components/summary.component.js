@@ -153,9 +153,7 @@ export default class Summary extends Component {
     }
 
     render() {
-        
         var price;
-
         if (this.state.discount === "child") 
             price = this.state.price * 85 / 100
         else if (this.state.discount === "student")
@@ -165,7 +163,6 @@ export default class Summary extends Component {
         else if (this.state.discount === "none")
             price = this.state.price
         
-
         return (
             <div className>
                 <h2 className={"title"}>Podsumowanie</h2>

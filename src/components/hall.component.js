@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 
-
 class Seat extends Component {
-
     render() {
-
         const color = this.props.seatState === 0 ?
             "rgb(180,180,180)" : this.props.seatState === 1 ?
-            "rgb(255,0,0)" : "rgb(30,250,30)";
+                "rgb(255,0,0)" : "rgb(30,250,30)";
 
         return (
             <div>
@@ -31,7 +28,6 @@ export default class Hall extends Component {
     }
 
     render() {
-
         return (
             <div>
                 <div className="hall-row-7">

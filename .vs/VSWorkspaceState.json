@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\public",
-    "\\src",
-    "\\src\\components"
+    ""
   ],
-  "SelectedNode": "\\src\\components\\forms.component.js",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
